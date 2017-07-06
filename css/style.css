@@ -1,0 +1,122 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+body{margin-top:20px;}
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+.nav-pills li a:active,  .nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover{
+    background-color: #e03a3e
+ }
+.fa-fw {width: 2em;}
+.menu-items{
+    padding:30px 0 30px 30px !important;
+    background: #ffd520;
+    font-family: 'Verdana';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    border:1 px solid #f5f5f5;
+}
+
+.img-background, .img-background a:hover, .img-background a:focus, .img-background .active, .img-background a:visited, .nav-pills li.img-background a{
+	background:#3a4750 !important;
+}
+.body-background{
+    background-color: #f5f5f5;
+}
+.contact{
+	background: #d3d6db;
+	font-family:  'Verdana';
+    font-weight: 400;
+    font-size: 14px;
+    padding:30px 10px 50px 30px;
+    text-align: left;
+
+}
+.navbar-toggle
+{
+    position:relative;
+    float:right;
+    padding:9px 10px;
+    margin-top:8px;
+    margin-right:15px;
+    margin-bottom:8px;
+    background-color:#e03e3a;
+    background-image:none;
+    border:1px solid #e03e3a;          /* added line */
+    border-radius:4px
+}
+.icon-bar
+{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #ffd200;
+}
+.desktop-banner{
+    background:#383746; 
+    color:white;
+}
+
+
+
+
+@media only screen and (max-width:768px){
+    .img-background, .contact, .home-icon{
+        display: none !important;
+    }
+    .
+    .dark-background{
+        background: black;
+        color: white;
+    }
+    .promo {
+    position: relative;
+    }
+.promo img {
+    z-index: 1;
+    }
+    .hilight {
+     background-color: rgba(0,0,0,0.65);
+     position: absolute;
+     width: 100%;
+     height: 85px;
+     font-family: Verdana, Geneva, sans-serif;
+     color: #FFF;
+     bottom: 0px;
+     z-index: 1;
+    }
+    .menu-items{
+        text-align: center
+    }
+    .desktop-banner{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:769px){
+    .img-mobile, .dark-background, .mobile-view{
+        display: none;
+    }
+      .adjust-margin{
+        margin-left:-2%; 
+        margin-top: -32px;
+    }
+
+    .adjust-body-margin{
+      margin-top:-20px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1200px ){
+.col-sm-9{
+    width: 64% 
+}
+}
