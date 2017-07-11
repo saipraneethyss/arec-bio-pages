@@ -96,11 +96,11 @@ body{margin-top:20px;}
      bottom: 0px;
      z-index: 1;
     }
-    .menu-items{
-        text-align: center
-    }
     .desktop-banner{
         display: none;
+    }
+    .fa-fw{
+        margin-left:100px;
     }
 }
 /*back to top icon*/
