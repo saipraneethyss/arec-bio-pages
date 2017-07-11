@@ -7,6 +7,7 @@ body{margin-top:20px;}
     margin-left:auto
  }
 
+/* Styling for the side menu */
 .nav-pills li a:active,  .nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover{
     background-color: #e03a3e
  }
@@ -23,12 +24,14 @@ body{margin-top:20px;}
     border:1 px solid #f5f5f5;
 }
 
+/*Professor image styling */
 .img-background, .img-background a:hover, .img-background a:focus, .img-background .active, .img-background a:visited, .nav-pills li.img-background a{
 	background:#3a4750 !important;
 }
 .body-background{
     background-color: #f5f5f5;
 }
+/*Contact tab */
 .contact{
 	background: #d3d6db;
 	font-family:  'Verdana';
@@ -38,6 +41,7 @@ body{margin-top:20px;}
     text-align: left;
 
 }
+/*mobile version hamburger styling */
 .navbar-toggle
 {
     position:relative;
@@ -65,7 +69,7 @@ body{margin-top:20px;}
 }
 
 
-
+/*media queries for mobile version*/
 
 @media only screen and (max-width:768px){
     .img-background, .contact, .home-icon{
@@ -99,7 +103,21 @@ body{margin-top:20px;}
         display: none;
     }
 }
+/*back to top icon*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+.btn-custom{
+    color:#e03a3e;
+    background:#ffd520;
+    background-color: #ffd520;
+}
 
+/*media queries for sm, md, lg versions*/
 @media only screen and (min-width:769px){
     .img-mobile, .dark-background, .mobile-view{
         display: none;
@@ -114,7 +132,7 @@ body{margin-top:20px;}
     }
 }
 
-
+/*media queries for sm versions*/
 @media only screen and (min-width:768px) and (max-width: 1200px ){
 .col-sm-9{
     width: 64% 
