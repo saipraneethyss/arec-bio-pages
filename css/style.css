@@ -112,9 +112,9 @@ body{margin-top:20px;}
     display:none;
 }
 .btn-custom{
-    color:#e03a3e;
-    background:#ffd520;
-    background-color: #ffd520;
+    color:#ffd520;
+    background:#e03e3a;
+    background-color: #e03e3a;
 }
 
 /*media queries for sm, md, lg versions*/
