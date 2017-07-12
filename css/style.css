@@ -80,7 +80,7 @@ body{margin-top:20px;}
 /*media queries for mobile version*/
 
 @media only screen and (max-width:768px){
-    .img-background, .contact, only-desktop{
+    .img-background, .contact, #only-desktop{
         display: none !important;
     }
     
@@ -114,7 +114,7 @@ body{margin-top:20px;}
     }
 }
 /*back to top icon*/
-.back-to-top {
+.back-to-top, .back-to-top a:active, .back-to-top a:focus {
     cursor: pointer;
     position: fixed;
     bottom: 20px;
