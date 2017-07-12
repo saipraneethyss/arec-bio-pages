@@ -44,5 +44,14 @@ $(document).ready(function(){
         });
         
         $('#back-to-top').tooltip('show');
+        $('.admin-menu li').on('click', function () {
+        var $currentMenuItem = $('.button-label'),
+        currentText = $('a', this).text();
+
+    $currentMenuItem.text(currentText);
+});
 
 });
+
+
+
