@@ -133,11 +133,12 @@ body{margin-top:20px;}
     }
 }
 /*back to top icon*/
-.back-to-top, .back-to-top a:active, .back-to-top a:focus {
+.back-to-top, .back-to-top a:active, .back-to-top a:focus, .back-to-top:hover {
     cursor: pointer;
     position: fixed;
     bottom: 20px;
     right: 20px;
+    color:#ffd520;
     display:none;
 }
 .btn-custom{
