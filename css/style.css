@@ -163,6 +163,9 @@ body{margin-top:20px;}
     .button-label{
         display: none;
     }
+    .only-mobile{
+        display: none;
+    }
 }
 
 /*media queries for sm versions*/
