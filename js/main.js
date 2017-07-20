@@ -1,10 +1,12 @@
 $(document).ready(function()
 {
+    /*code for navigation on click of menu-items*/
     var navItems = $('.admin-menu li > a');
     var homeicon=$('.home-icon a')
     var navListItems = $('.admin-menu li');
     var allWells = $('.admin-content');
     var allWellsExceptFirst = $('.admin-content:not(:first)');
+    var $currentMenuItem = $('.button-label');
     
     allWellsExceptFirst.hide();
     navItems.click(function(e)
@@ -17,16 +19,18 @@ $(document).ready(function()
         var target = $(this).attr('data-target-id');
         $('#' + target).show();
     });
+
     homeicon.click(function(e)
     {
         e.preventDefault();
         allWells.hide();
         var target = $(this).attr('data-target-id');
         $('#' + target).show();
+        $currentMenuItem.text('Home');
     });
-});
 
-$(document).ready(function(){
+/*code for back to top*/
+
      $(window).scroll(function () {
             if ($(this).scrollTop() > 500) {
                 $('#back-to-top').fadeIn();
@@ -44,8 +48,8 @@ $(document).ready(function(){
         });
         
         $('#back-to-top').tooltip('show');
+        //name and image on-click - home page
         $('.admin-menu li').on('click', function () {
-        var $currentMenuItem = $('.button-label'),
         currentText = $('a', this).text();
 
     $currentMenuItem.text(currentText);

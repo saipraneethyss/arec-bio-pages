@@ -160,10 +160,7 @@ body{margin-top:20px;}
     .adjust-body-margin{
       margin-top:-20px;
     }
-    .button-label{
-        display: none;
-    }
-    .only-mobile{
+    .button-label, .only-mobile{
         display: none;
     }
 }
